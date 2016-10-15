@@ -8,44 +8,55 @@
 # Install native apps
 
 brew install caskroom/cask/brew-cask
+brew install homebrew/completions/brew-cask-completion
 brew tap caskroom/versions
-
-# daily
-brew cask install spectacle
-brew cask install dropbox
-brew cask install gyazo
-brew cask install 1password
-brew cask install rescuetime
-brew cask install flux
 
 # dev
 brew cask install iterm2
+brew cask install brackets
 brew cask install sublime-text
+brew cask install soapui
+brew cask install mysqlworkbench
+brew cask install pencil
+brew cask install squidman
 brew cask install imagealpha
 brew cask install imageoptim
 
-# fun
-brew cask install limechat
-brew cask install miro-video-converter
-brew cask install horndis               # usb tethering
+# communication
+brew cask install zoomus
+brew cask install skype
+brew cask install slack
 
 # browsers
-brew cask install google-chrome-canary
-brew cask install firefoxnightly
-brew cask install webkit-nightly
-brew cask install chromium
+brew cask install google-chrome
+brew cask install firefox
 brew cask install torbrowser
 
-# less often
-brew cask install disk-inventory-x
-brew cask install screenflow
+# media
 brew cask install vlc
-brew cask install gpgtools
-brew cask install licecap
+brew cask install spotify
+brew cask install spotify-notifications
+brew cask install calibre
+
+# osx-tools
+brew cask install caffeine
+brew cask install clipmenu
+brew cask install controlplane
+
+# other
 brew cask install utorrent
-
-
-# Not on cask but I want regardless.
-
-# File Multi Tool 5
-# Phosphor
+brew cask install flux
+brew cask install archiver
+brew cask install blink1control
+brew cask install skitch
+brew cask install cyberduck
+brew cask install evernote
+brew cask install synology-cloud-station-drive
+brew cask install teamviewer
+brew cask install unrarx
+brew cask install jdownloader
+brew cask install keepassx
+brew cask install virtualbox
+brew cask install openoffice
+brew cask install xquart
+brew cask install osxfuse

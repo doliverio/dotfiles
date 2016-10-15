@@ -38,25 +38,7 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 
-
-# run this script when this file changes guy.
-brew install entr
-
-# github util. imho better than hub
-brew install gh
-
-
-# mtr - ping & traceroute. best.
-brew install mtr
-
-    # allow mtr to run without sudo
-    mtrlocation=$(brew info mtr | grep Cellar | sed -e 's/ (.*//') #  e.g. `/Users/paulirish/.homebrew/Cellar/mtr/0.86`
-    sudo chmod 4755 $mtrlocation/sbin/mtr
-    sudo chown root $mtrlocation/sbin/mtr
-
-
 # Install other useful binaries
-brew install the_silver_searcher
 brew install fzf
 
 brew install git
@@ -68,9 +50,37 @@ brew install tree
 brew install zopfli
 brew install ffmpeg --with-libvpx
 
-brew install terminal-notifier
+brew install awscli
+brew install blink1
+brew install certbot
+brew install diff-so-fancy # fancy git-diffs
+brew install docker-compose
+brew install homebrew/fuse/encfs
+brew install grc
+brew install htop-osx
+brew install libksba
+brew install homebrew/dupes/libpcap
+brew install m-cli
+brew install multitail
+brew install homebrew/dupes/nano
+brew install homebrew/php/php56-apcu
+brew install homebrew/php/php56-gmagick
+brew install homebrew/php/php56-intl
+brew install homebrew/php/php56-mcrypt
+brew install homebrew/php/php56-mysqlnd_ms
+brew install homebrew/php/php56-uuid
+brew install homebrew/php/php56-xdebug
+brew install homebrew/php/phpunit
+brew install python3
+brew install qcachegrind # php-profiling
+brew install qt
+brew install reattach-to-user-namespace
+brew install watchman
+brew install homebrew/php/wp-cli
+brew install homebrew/completions/wpcli-completion
+brew install homebrew/dupes/zlib
+brew install zsh-syntax-highlighting
 
-brew install android-platform-tools
 brew install pidcat   # colored logcat guy
 
 brew install zsh
